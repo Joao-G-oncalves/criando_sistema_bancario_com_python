@@ -16,7 +16,7 @@ while True:
     opcao = input(menu).lower().strip()[0]
 
     if opcao == 'd':
-        deposito = float(input('Quando você deseja depositar? R$ '))
+        deposito = float(input('Quanto você deseja depositar? R$ '))
         if deposito > 0:
             saldo += deposito
             print(f'Você depositou R$ {deposito:.2f}')
